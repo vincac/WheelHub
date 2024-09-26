@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="home.js"></script>
+</head>
+<body>
+    <nav>
+        <div id="logo-con"> <a href="index.html" id="logo"><span id="red">Wheel</span>Hub</a></div>
+        <input type="checkbox" id="sidebar-cb">
+        <label for="sidebar-cb" class="open-btn">
+            <img src="../Assets/solar--hamburger-menu-linear.png" alt="">
+        </label>
+        <label for="sidebar-cb" id="overlay"></label>
+        <div class="links-con">
+            <label for="sidebar-cb" class="close-btn">
+                <img src="../Assets/ic--round-close.png" alt="">
+            </label>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="../promotion/promotion.html">Promotion</a></li>
+            <li>
+             <a href="../allcars/cars.html">All Cars <img id="dropdown-icon" src="../Assets/ui/down_down_arrow.png" alt=""></a>
+                 <ul class="dropdown">
+                 <li><a href="../allcars/cars.html">Sedan</a></li>
+                <li><a href="../allcars/cars.html">SUV</a></li>
+                <li><a href="../allcars/cars.html">Hatchback</a></li>
+                </ul>
+            </li>
+            <li><a href="../aboutus/aboutus.html">About Us</a></li>
+             <li>   <a href="../register/regist.html">Registration</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner">
+        <img src="../Assets/promotion_banner/2024_corola_hybrid.jpeg" alt="">
+        <div class="banner-txt">
+        <h3>Welcome to <span id="red">Wheel</span>Hub online <br> where your journey to the perfect car begins</h3>
+        </div>
+    </div>
+  
+    <div class="info">
+        <h3 id="infoh3">You can explore our selection of featured car and promotions, on this page.</h3>
+    </div>
+    <div class="title">
+        <h2>Special Promo</h2>
+    </div>
+    
+    <div class="slider-carousel">
+        <div class="arrow" id="left-arrow">&#9664;</div>
+        <div class="carousel">
+            <div class="carousel-img-con">
+                <div class="carousel-img-group">
+                    <img src="../Assets/promotion_banner/2023_mirai.jpeg" alt="">
+                    <div class="img-txt">
+                        <h3>Dream Car Sale</h3>
+                        <p>Refer a friend to purchase a vehicle during the Mega Car Savings Sale and <span class="bold" id="red">receive a $200 referral bonus!</span> <a href="./promotion.html" id="more">more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-img-group">
+                    <img src="../Assets/promotion_banner/2024_highlander_hybrid.jpeg" alt="">
+                    <div class="img-txt">
+                        <h3>Drive & Save: Exclusive Service Deals</h3>
+                        <p>Schedule a VIP test drive appointment during the Mega Car Savings Sale and <span class="bold" id="red">receive a $50 gas card</span> upon completion! <a href="./promotion.html" id="more" >more</a></p>
+                    </div>
+                </div>
+                <div class="carousel-img-group">
+                    <img src="../Assets/promotion_banner/2024_sienna.jpeg" alt="">
+                    <div class="img-txt">
+                        <h3>Drive now, pay later</h3>
+                        <p>Enjoy the freedom of driving without worrying about payments for the first three months. Your first installment starts <span id="red" class="bold">after 90 days from the purchase date</span> <a href="./promotion.html" id="more">more</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow" id="right-arrow">&#9654;</div>
+    </div>
+
+    
+    <div class="title">
+        <h2>Featured Car</h2>
+    </div>
+    <div class="featured-cars">
+        <img src="../Assets/23_bZ4X_XLE_WindChillPearl_2.png" alt="">
+        <div class="details">
+            <h3>Toyota BZ4X</h3>
+            <h4 id="starts-from">starts from</h4>
+            <h4>$43,070</h4>
+        </div>
+        <div class="slider-b">
+        </div>
+    </div>
+    <div class="why">
+        <div class="why-us">
+            <h3>Why Us?</h3>
+            <h4>Our Benefits</h4>
+            <div id="par">
+                 <p>Choosing our car dealer website is a smart move for several reasons. We stand out from the crowd for three compelling reasons:</p>
+            </div>
+        </div>
+        <div class="why-desc">
+            <div class="ben variety">
+                <div class="logo">
+                    <img src="../Assets/ion--car-sport-outline.png" alt="">
+                </div>
+                <h3>Wide variety</h3>
+                <p>our website boasts a wide variety of cars to suit every preference and budget</p>
+            </div>
+            <div class="ben price">
+                <div class="logo">
+                    <img src="../Assets/ic--round-price-check.png" alt="">
+                </div>
+                <h3>Fixed prices</h3>
+                <p>we offer fixed prices, ensuring transparency and eliminating any hidden charges.</p>
+            </div>
+            <div class="ben quality">
+                <div class="logo">
+                    <img src="../Assets/solar--medal-ribbons-star-linear.png" alt="">
+                </div>
+                <h3>Top-Quality Cars</h3>
+                <p>We ensure that each vehicle meets our high standards before being listed</p>
+            </div>
+        </div>
+    </div>
+    <div class="review-title">
+        <h3>Our Satisfied customers say...</h3>
+    </div>
+    <div class="review">
+        <div class="review-card">
+            <div class="photo"><img src="../Assets/Screenshot 2024-04-16 at 12.38.45 PM.png" alt=""></div>
+            <h3>David Miller</h3>
+            <p>"I was amazed by the wide variety of vehicles available, it made finding the perfect car so easy!"</p>
+        </div>
+        <div class="review-card">
+            <div class="photo"><img src="../Assets/Screenshot 2024-04-16 at 12.39.07 PM.png" alt=""></div>
+            <h3>Sarah Wilson</h3>
+            <p>"The fixed prices made the whole buying process transparent and hassle-free."</p>
+        </div>
+        <div class="review-card">
+            <div class="photo"><img src="../Assets/pexels-andrea-piacquadio-3777946.jpg" alt=""></div>
+            <h3>Robert Anderson</h3>
+            <p>"High-quality vehicles and a great selection, the perfect place to find your next car."</p>
+        </div>
+    </div>
+    <footer>
+        <div footer-text>
+            <div class="top-side">
+                <div class="right-side">
+                    <div id="right-text">
+                        <h3><span id="red">Wheel</span>Hub</h3>
+                        <p>Wheel Hub online—where your <br> journey to the perfect car begins</p>
+                    </div>
+                </div>
+                <div class="left-side">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="../promotion/promotion.html">Promotion</a></li>
+                        <li><a href="../allcars/cars.html">All Cars</a></li>
+                        <li><a href="../aboutus/aboutus.html">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="bot-side">
+                <p>Copyright &copy;2024  Designed by Vinisa Cahya</p>
+            </div>
+            
+        </div>
+    </footer>
+
+ 
+</body>
+</html>

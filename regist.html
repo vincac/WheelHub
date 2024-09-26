@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../register/registstyle.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="con1">
+            <div class="bottom-right">
+                <h2>Get ready to take the next step in finding your dream car with wHeel Hub!</h2>
+            </div>
+            <img src="../Assets/gallery/gallery_4.jpeg" alt="">
+        </div>
+        <div class="con2">
+            <div class="ftcon">
+                <div class="welcome">
+                    <h3>Welcome to wHeel Hub!</h3>
+                    <p>Register your account</p> 
+                 </div>
+             <div class="formcon">
+                <form method="POST">
+                    <div class="form name t1">
+                        <label for="name">Username</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form email t1">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="form pass t1">
+                        <label for="pass">Password</label>
+                        <input type="password" name="pass" id="pass">
+                    </div>
+                    <div class="form cpass t1">
+                        <label for="cpass">Confirm Password</label>
+                        <input type="password" name="cpass" id="cpass">
+                    </div>
+                    <div class="form radio">
+                        <label for="">Gender</label>
+                        <div id="genderg">
+                            <div id="female">
+                                <input type="radio" name="rad" id="fgender">
+                                <label for="fgender">Female</label>
+                            </div>
+                            <div id="male">
+                                <input type="radio"  name="rad" id="mgender">
+                                <label for="mgender">Male</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form dob">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" required name="dob" id="dob">
+                    </div>
+                    <div class="form cb">
+                        <div id="cbg">
+                             <input type="checkbox" name="cb" id="cb">
+                             <label for="cb">I agree with the website's term and conditions</label>
+                        </div>
+                    </div>
+                    <div id="btn">
+                           <button type="button" onclick="validateData()">Register</button>
+                    </div>
+                </form>
+            </div>
+           
+            </div> 
+        </div>
+    </div> 
+    <script src="../register/regist.js"></script>
+</body>
+</html>
